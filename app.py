@@ -16,7 +16,7 @@ if "chat" not in st.session_state:
 
 
 for m in st.session_state.chat:
-    st.chat_message(m["role"]).write(m["content"])python
+    st.chat_message(m["role"]).write(m["content"])
 
 
 prompt = st.chat_input("Ask something")
